@@ -1,0 +1,22 @@
+# Virtual environment — rebuilt by install.sh
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime output
+canvas-dates.log
+
+# macOS
+.DS_Store
+
+# Never commit these: your settings live in ~/.config/canvas-dates/
+# and your feed link lives in the Keychain, but just in case.
+config.json
+weights.json
+dismissed.json
+manual.json
+cache.json
+token
+canvas-feed-url
