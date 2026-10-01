@@ -267,3 +267,7 @@ The existing offline suite was run on 1 October 2026: **56 checks passed**. This
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
+
+## Explore the portfolio
+
+[Back to Zain Khokhar’s project directory](https://github.com/khokharzain#project-directory)
