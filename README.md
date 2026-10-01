@@ -176,8 +176,9 @@ LaunchAgent so it starts at login.
 2. Scroll the right-hand column → **Calendar Feed**
 3. Copy the link
 
-**Treat it like a password** — anyone holding it can read your calendar. It
-goes into the macOS Keychain, not a file.
+**Treat it like a password** — anyone holding it can read your calendar. The app
+tries the macOS Keychain first; if Keychain is unavailable, it uses an
+owner-readable local file with permissions set to `0600`.
 
 ### Using an API token instead
 
