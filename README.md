@@ -72,7 +72,7 @@ token, flip one setting and the manual steps disappear.
 - **Add your own due dates** for assessment Canvas hasn't published yet.
 - **Skip a unit** whose weightings aren't out yet — due dates only, no nagging.
 - **Works offline.** The last fetch is cached; an outage never blanks the list.
-- **Secrets in the Keychain**, never in a file.
+- **Keychain-first secret storage**, with an owner-readable file fallback when Keychain is unavailable.
 - **One dependency** (`rumps`) plus `certifi`. Everything else is stdlib.
 
 ---
@@ -259,6 +259,10 @@ built against an injected `rumps` stub so the UI code is covered on any
 machine, including CI.
 
 ---
+
+## Verification
+
+The existing offline suite was run on 1 October 2026: **56 checks passed**. This checks fake calendar/API data and an injected menu UI; it does not verify a live Canvas account or a native menu-bar installation.
 
 ## Licence
 
